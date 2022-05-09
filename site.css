@@ -1,0 +1,14 @@
+@charset "utf-8";
+/* Lab 8 External Style Sheet - Jack Widmer */
+h1 {
+    text-align: center;
+}
+
+#formContainer {
+    text-align: center;
+}
+
+#otherHobbiesContainer {
+    text-align: left;
+    margin-left: 46%;
+}

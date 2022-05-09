@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Lab 8 - Jack Widmer</title>
+    <meta charset="utf-8">
+    <link href="site.css" rel="stylesheet">
+    <script src="site.js"></script>
+</head>
+
+<body>
+    <h1>Lab 8 - Jack Widmer</h1>
+    <div id="formContainer">
+        <form name="theForm" action="https://cst.ridgewater.edu/Tools/FormEcho/?Lab=CST1022%20Lab%208" method="post"
+            onsubmit="return validateForm();">
+            <input type="hidden" name="student" value="Jack Widmer">
+            First Name: <input type="text" name="txtFirstName" required>
+            <br>
+            <br>
+            Last Name: <input type="text" name="txtLastName" required>
+            <br>
+            <br>
+            Address Line 1: <input type="text" name="txtAddress1" required>
+            <br>
+            <br>
+            Address Line 2: <input type="text" name="txtAddress2">
+            <br>
+            <br>
+            City: <input type="text" name="txtCity" required>
+            <br>
+            <br>
+            State: <input type="text" name="txtState" required>
+            <br>
+            <br>
+            ZIP Code: <input type="text" name="txtZIP" required>
+            <br>
+            <br>
+            Email Address: <input type="text" name="txtEmail" required>
+            <br>
+            <br>
+            Phone Number: <input type="text" name="txtPhone" required>
+            <br>
+            <br>
+            Date of Birth: <input type="text" name="txtDOB" required>
+            <br>
+            <br>
+            What Are Your Hobbies?:
+            <br>
+            <div id="HobbiesContainer">
+                <label for="chkGard"><input type="checkbox" name="chkGard" id="chkGard"
+                        value="Gardening">Gardening</label>
+                <br>
+                <label for="chkProg"><input type="checkbox" name="chkProg" id="chkProg"
+                        value="Programming">Programming</label>
+                <br>
+                <label for="chkRead"><input type="checkbox" name="chkRead" id="chkRead" value="Reading">Reading</label>
+                <br>
+                <label for="chkSpor"><input type="checkbox" name="chkSpor" id="chkSpor" value="Sports">Sports</label>
+                <br>
+                Other: <input type="text" name="txtOtherHobby">
+            </div>
+            <br>
+            May we call you for a short customer satisfaction survey?:
+            <label for="Yes"><input type="radio" name="radSurvey" id="Yes" required>Yes</label>
+            <label for="No"><input type="radio" name="radSurvey" id="No">No</label>
+            <br>
+            <br>
+            <input type="submit" name="btnSubmit" value="Submit">
+        </form>
+    </div>
+</body>
+
+
+</html>
